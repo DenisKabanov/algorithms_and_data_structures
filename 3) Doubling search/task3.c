@@ -47,8 +47,8 @@ int main(){
     scanf("%d %d", &arr_size, &target);
 
     int *input_arr = (int*)malloc(arr_size * sizeof(int));
-    char *bounds_history = (char*) malloc(arr_size * sizeof(char));
-    char *search_history = (char*) malloc(arr_size * sizeof(char));
+    char *bounds_history = (char*) malloc(sizeof(char));
+    char *search_history = (char*) malloc(sizeof(char));
 
     for(int i=0; i<arr_size; i++) 
     {
