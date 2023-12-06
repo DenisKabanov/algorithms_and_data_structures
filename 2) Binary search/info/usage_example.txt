@@ -1,0 +1,11 @@
+вариант для С++
+g++ task2.cpp -o task2_cpp.out
+./task2_cpp.out
+
+вариант для C
+gcc task2.c -o task2_c.out
+./task2_c.out
+
+входные данные (для обоих вариантов):
+10 1
+1 1 1 1 2 2 2 3 4 4
