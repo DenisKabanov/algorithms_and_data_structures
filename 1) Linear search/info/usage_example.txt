@@ -1,0 +1,14 @@
+вариант для C++
+g++ task1.cpp -o task1_cpp.out
+./task1_cpp.out
+
+вариант для C
+gcc task1.c -o task1_c.out
+./task1_c.out
+
+входные данные (для обоих вариантов):
+5 1
+5 1 4 3 1
+
+5 1
+2 3 15 0 7
