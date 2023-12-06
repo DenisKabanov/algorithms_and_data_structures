@@ -10,7 +10,7 @@ int main(){
     scanf("%d %d", &arr_size, &target); // считывание двух чисел - размер массива и таргет с консоли
 
     int *input_arr = (int*)malloc(arr_size * sizeof(int)); // динамическое создание массива под входные данные
-    char *res = (char*) malloc(arr_size * sizeof(char)); // динамическое создание массива под вывод
+    char *res = (char*) malloc(sizeof(char)); // динамическое создание массива под вывод
     
     for(int i=0; i<arr_size; i++) { // делаем arr_size раз 
         scanf("%d", &input_arr[i]); // считываем одно число и помещаем его в input_arr (в строке консоли идёт сразу несколько, разделеных пробелом)
